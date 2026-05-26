@@ -20,7 +20,7 @@ export default function Terms() {
             <p className="text-sm mb-8">Last Updated: 30-06-2025</p>
             
             <div className="space-y-6 text-sm leading-relaxed">
-              <p>At NumeroMobile Private Limited, accessible from https://thecookstudios.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded and how we use it.</p>
+              <p>At NumeroMobile Private Limited, accessible from https://cookstudio.live/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded and how we use it.</p>
               
               <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
               
@@ -44,10 +44,10 @@ export default function Terms() {
               </ul>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">Log Files</h2>
-              <p>https://thecookstudios.com/ follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks.</p>
+              <p>https://cookstudio.live/ follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks.</p>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">Cookies and Web Beacons</h2>
-              <p>Like any other website, https://thecookstudios.com/ uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited.</p>
+              <p>Like any other website, https://cookstudio.live/ uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited.</p>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">CCPA Privacy Rights</h2>
               <p>Under the CCPA, among other rights, California consumers have the right to:</p>
@@ -67,13 +67,13 @@ export default function Terms() {
                 <li>The right to data portability – You have the right to request data transfer</li>
               </ul>
               
-              <h2 className="text-2xl font-bold mt-8 mb-4">Children's Privacy</h2>
-              <p>Our Services are not intended for users under the age of 16. We do not knowingly collect personal data from children. If you believe a child has submitted personal information through our platform, please contact us immediately at <a href="mailto:bd@numeromobile.com" className="text-yellow-500 hover:text-yellow-400">bd@numeromobile.com</a> and we will take prompt steps to delete such information from our records.</p>
+              <h2 className="text-2xl font-bold mt-8 mb-4">Children's Information</h2>
+              <p>https://thecookstudios.com/ does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately.</p>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">Terms and Conditions</h2>
               <p>This document is an electronic record in terms of Information Technology Act, 2000 and rules there under as applicable.</p>
               
-              <p className="mt-4">The Platform is owned by NUMERO MOBILE Pvt. Ltd., a company incorporated under the Companies Act, 1956. Your use of the Platform and services are governed by these Terms of Use.</p>
+              <p className="mt-4">The Platform is owned by NumeroMobile Private Limited, a company incorporated under the Companies Act, 1956. Your use of the Platform and services are governed by these Terms of Use.</p>
               
               <p className="mt-4">ACCESSING, BROWSING OR OTHERWISE USING THE PLATFORM INDICATES YOUR AGREEMENT TO ALL THE TERMS AND CONDITIONS UNDER THESE TERMS OF USE.</p>
               
@@ -85,19 +85,14 @@ export default function Terms() {
                 <li>You agree not to use the Platform for any unlawful purpose</li>
                 <li>You shall indemnify and hold harmless Platform Owner from any claims</li>
               </ul>
+
+              <p className="mt-4">All disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of Indian courts and governed by the laws of India.</p>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">Disclaimer</h2>
               <p>The content provided on this platform, including recipes, cooking videos, nutritional information, and related materials, is intended for general informational and educational purposes only. It is not a substitute for professional medical, dietary, or nutritional advice. Users are advised to consult a qualified healthcare professional or nutritionist regarding specific dietary needs, allergies, or medical conditions before following any recipes or meal plans.</p>
               <p className="mt-4">By using this platform and trying the recipes or cooking techniques, you acknowledge that you do so voluntarily and at your own risk. The platform and its creators shall not be held responsible for any allergic reactions, food-related illnesses, injuries, damages, or losses resulting from the use of this content. Individual results and experiences may vary.</p>
 
-              <h2 className="text-2xl font-bold mt-8 mb-4">Governing Law and Jurisdiction</h2>
-              <p>These Terms shall be governed and interpreted in accordance with the laws of India. Any disputes arising out of or relating to the use of this website shall be subject to the exclusive jurisdiction of the courts located in Gurgaon, Haryana.</p>
 
-              <h2 className="text-2xl font-bold mt-8 mb-4">Contact Us</h2>
-              <p>NUMERO MOBILE Pvt. Ltd.</p>
-              <p className="mt-2">📧 <a href="mailto:bd@numeromobile.com" className="text-yellow-500 hover:text-yellow-400">bd@numeromobile.com</a></p>
-              <p>📞 <a href="tel:+919217523567" className="text-yellow-500 hover:text-yellow-400">9217523567</a></p>
-              <p>📍 417, 4th floor, Tower A1, SPAZE ITECH PARK, Sector 49, Gurugram, Haryana 122018</p>
             </div>
             
             <div className="mt-8 pt-8 border-t border-white/20">

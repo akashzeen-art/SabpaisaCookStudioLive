@@ -20,7 +20,7 @@ export default function Privacy() {
             <p className="text-sm mb-8">Last Updated: 14-07-2025</p>
             
             <div className="space-y-6 text-sm leading-relaxed">
-              <p>This Privacy Policy describes how NUMERO MOBILE Pvt. Ltd. ("we", "us", or "our") collects, uses, discloses, and protects your personal information when you visit or make a purchase from https://thecookstudios.com/ (the "Site") or use any of our services (collectively, the "Services").</p>
+              <p>This Privacy Policy describes how NUMERO MOBILE Pvt. Ltd. ("we", "us", or "our") collects, uses, discloses, and protects your personal information when you visit or make a purchase from https://cookstudio.live/ (the "Site") or use any of our services (collectively, the "Services").</p>
               
               <p>By using our Services, you agree to the collection and use of information as outlined in this Privacy Policy. If you do not agree, please do not use the Services.</p>
               
