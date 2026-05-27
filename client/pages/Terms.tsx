@@ -68,7 +68,7 @@ export default function Terms() {
               </ul>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">Children's Information</h2>
-              <p>https://thecookstudios.com/ does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately.</p>
+              <p>https://thecookstudios.com/ does not knowingly collect any Personal Identifiable Information from children under the age of 16. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately.</p>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">Terms and Conditions</h2>
               <p>This document is an electronic record in terms of Information Technology Act, 2000 and rules there under as applicable.</p>
