@@ -80,7 +80,7 @@ export default function Privacy() {
               <p>Our website may include links to third-party sites. We are not responsible for the privacy or security practices of these external platforms. Please review their privacy policies separately.</p>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">7. Children's Privacy</h2>
-              <p>Our Services are not intended for users under the age of 16. We do not knowingly collect personal data from children. If you believe a child has submitted personal information through our platform, please contact us immediately and we will take prompt steps to delete such information from our records.</p>
+              <p>Our Services are not intended for users under the age of 16. We do not knowingly collect personal data from children. If you believe a child has submitted personal information through our platform, please contact us immediately at <a href="mailto:bd@numeromobile.com" className="text-yellow-500 hover:text-yellow-400">bd@numeromobile.com</a> and we will take prompt steps to delete such information from our records.</p>
               
               <h2 className="text-2xl font-bold mt-8 mb-4">8. Security and Retention</h2>
               <p>We take reasonable precautions to protect your personal information. However, no online transmission or storage is completely secure. We retain your information only as long as necessary for our business purposes or to meet legal requirements.</p>
@@ -97,10 +97,18 @@ export default function Privacy() {
               
               <p className="mt-6">To make any such request, please contact us at:</p>
               <p className="mt-2">📧 <a href="mailto:bd@numeromobile.com" className="text-yellow-500 hover:text-yellow-400">bd@numeromobile.com</a></p>
-              <p>📍 Numero Mobile Pvt. Ltd., 417, 4th floor, Tower A1, SPAZE ITECH PARK, Sector 49, Gurugram, Haryana 122018</p>
-              <p>📞 <a href="tel:+919217523567" className="text-yellow-500 hover:text-yellow-400">9217523567</a></p>
+              <p>📍 NumeroMobile, 417, Tower A1, Sector-49, Gurgaon, Haryana, 122011</p>
               
 
+              <h2 className="text-2xl font-bold mt-8 mb-4">10. Disclaimer</h2>
+              <p>The content provided on this platform, including recipes, cooking videos, nutritional information, and related materials, is intended for general informational and educational purposes only. It is not a substitute for professional medical, dietary, or nutritional advice. Users are advised to consult a qualified healthcare professional or nutritionist regarding specific dietary needs, allergies, or medical conditions before following any recipes or meal plans.</p>
+              <p className="mt-4">By using this platform and trying the recipes or cooking techniques, you acknowledge that you do so voluntarily and at your own risk. The platform and its creators shall not be held responsible for any allergic reactions, food-related illnesses, injuries, damages, or losses resulting from the use of this content. Individual results and experiences may vary.</p>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">11. Governing Law and Jurisdiction</h2>
+              <p>These Terms shall be governed and interpreted in accordance with the laws of India. Any disputes arising out of or relating to the use of this website shall be subject to the exclusive jurisdiction of the courts located in Gurgaon, Haryana.</p>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">12. Updates to this Privacy Policy</h2>
+              <p>We may update this Privacy Policy periodically to reflect changes in our practices or legal obligations. Updates will be posted on this page with the revised date.</p>
             </div>
             
             <div className="mt-8 pt-8 border-t border-white/20">
