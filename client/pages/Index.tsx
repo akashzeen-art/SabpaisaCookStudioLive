@@ -29,6 +29,29 @@ export default function Index() {
     }
   }, []);
 
+  const newRecipes = [
+    { id: 1, name: "Mediterranean Soup", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/8f33cced-89b6-424a-a3a6-03ae93d13134/play_360p.mp4" },
+    { id: 2, name: "Cheesy Garlic Rolls", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/935fac92-4d6f-42b2-9eff-e055f0f6e7e9/play_360p.mp4" },
+    { id: 3, name: "Polish Soup", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/e1c7cde3-9a89-47ab-81fe-18edaa0b2bfd/play_360p.mp4" },
+    { id: 4, name: "Simple Surprise Soup", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/2015929e-76be-4bdd-b7ea-6f1da818d1fc/play_360p.mp4" },
+    { id: 5, name: "Easy Cheese Danish", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/f070533e-5d59-424d-b0e2-76c660deac43/play_360p.mp4" },
+    { id: 6, name: "Focaccia Pizza", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/4a4b98f6-9214-4158-9127-e4e04964a3e7/play_360p.mp4" },
+    { id: 7, name: "Garlic Butter Potatoes", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/0cac6663-931c-4704-b83d-4e298ced5818/play_360p.mp4" },
+    { id: 8, name: "Vegetable Soup", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/a8a1d291-4f50-4788-ba4b-a3fe163315b1/play_360p.mp4" },
+    { id: 9, name: "Chickpea Patties", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/7dfd460c-ffb2-427f-bf06-1f6301b1e57f/play_360p.mp4" },
+    { id: 10, name: "Healthy Pancakes", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/3314795a-5f3e-454e-97df-1b6fb2adea62/play_360p.mp4" },
+    { id: 11, name: "Chickpea Salad", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/a3064318-3245-4c70-b2c0-5784d34e34f1/play_360p.mp4" },
+    { id: 12, name: "Master Chef Method", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/0455543c-90bd-46ca-b1f2-11dd9756ed69/play_360p.mp4" },
+    { id: 13, name: "Cheesy Beef Casserole", videoUrl: "https://vz-37338a02-bb9.b-cdn.net/6c399cdc-1600-4161-ab94-f974c2dd5702/play_480p.mp4" },
+    { id: 14, name: "Beef & Cabbage", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/89df6a73-f83f-46f1-9dcc-f86fcb0175ea/play_360p.mp4" },
+    { id: 15, name: "Mediterranean Pasta Salad", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/fe0dc2cd-1177-4b79-85d8-d7103bb193f9/play_360p.mp4" },
+    { id: 16, name: "Homemade Sushi", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/0725a23f-7282-4315-8d94-928090d1843b/play_360p.mp4" },
+    { id: 17, name: "Chicken Fajita Pasta", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/2cf8ae76-d194-4d0e-a74c-6dc61a905c07/play_360p.mp4" },
+    { id: 18, name: "Everyday Salad", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/0e69b816-b94a-4c2f-826b-1413ca9c3acd/play_360p.mp4" },
+    { id: 19, name: "After-Work Potatoes", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/5dfd44ec-8dc0-4aa0-b9f4-48a0e9de3178/play_360p.mp4" },
+    { id: 20, name: "Blood Vessel Cleanser", videoUrl: "https://vz-a2c5d962-9e6.b-cdn.net/a2dc236b-ddc1-4c45-aa47-20b6233946aa/play_360p.mp4" },
+  ];
+
   const featuredClasses = [
     {
       id: 1,
@@ -190,6 +213,37 @@ export default function Index() {
                 <span>View All Recipes</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
+            </div>
+
+            {/* New Recipes Grid 5x4 */}
+            <div className="mt-16">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                {newRecipes.map((recipe) => (
+                  <div
+                    key={recipe.id}
+                    onClick={() => openVideo(recipe.videoUrl, recipe.name)}
+                    className="rounded-xl border border-white/20 bg-white/10 backdrop-blur-md overflow-hidden group cursor-pointer hover:border-white/40 hover:shadow-xl hover:shadow-white/10 transition-all duration-300"
+                  >
+                    <div className="relative h-40 overflow-hidden">
+                      <img
+                        src={`/NewLandscape/${recipe.id}.png`}
+                        alt={recipe.name}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div className="w-12 h-12 rounded-full bg-yellow-500/90 flex items-center justify-center">
+                          <svg className="w-5 h-5 text-black ml-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.3 2.841A1.5 1.5 0 004 4.11v11.78a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="p-3">
+                      <p className="text-white text-sm font-medium leading-tight line-clamp-2">{recipe.name}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>
